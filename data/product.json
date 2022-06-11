@@ -1,5 +1,48 @@
 {
-    "products": [
-        
-    ]
+  "products": [
+    {
+      "name": "Масло ПРОСТОКВАШИНО сливочное в/с 82% фольга без змж, Россия, 180 г",
+      "country": "Россия",
+      "priceCard": 10899,
+      "priceReal": 19269,
+      "brend": "ПРОСТОКВАШИНО",
+      "pack": "180 г",
+      "img": "/images/image.jpg",
+      "star": 2,
+      "discount": 50
+    },
+    {
+        "name": "Масло ПРОСТОКВАШИНО сливочное в/с 82% фольга без змж, Россия, 180 г",
+        "country": "Россия",
+        "priceCard": 10899,
+        "priceReal": 19269,
+        "brend": "ПРОСТОКВАШИНО",
+        "package": "180 г",
+        "img": "/images/image.jpg",
+        "star": 2,
+        "discount": 50
+      },
+      {
+        "name": "Масло ПРОСТОКВАШИНО сливочное в/с 82% фольга без змж, Россия, 180 г",
+        "country": "Россия",
+        "priceCard": 10899,
+        "priceReal": 19269,
+        "brend": "ПРОСТОКВАШИНО",
+        "package": "180 г",
+        "img": "/images/image.jpg",
+        "star": 2,
+        "discount": 50
+      },
+      {
+        "name": "Масло ПРОСТОКВАШИНО сливочное в/с 82% фольга без змж, Россия, 180 г",
+        "country": "Россия",
+        "priceCard": 10899,
+        "priceReal": 19269,
+        "brend": "ПРОСТОКВАШИНО",
+        "package": "180 г",
+        "img": "/images/image.jpg",
+        "star": 2,
+        "discount": 50
+      }
+  ]
 }
