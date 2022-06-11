@@ -9,6 +9,8 @@ const xhbs = create({
 });
 
 const homeRouter = require('./routes/home')
+const catalogRouter = require('./routes/catalog')
+const catalogMilkRouter = require('./routes/catalogmilk')
 
 app.engine("hbs", xhbs.engine);
 app.set("view engine", "hbs");
@@ -19,6 +21,8 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use('/', homeRouter)
+app.use('/catalog', catalogRouter)
+app.use('/catalog/milk', catalogMilkRouter)
 
 try {
     const port = 5000
